@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files (useful for sensitive data like API keys)
+.env
+
+# Ignore logs
+*.log
+
+# Ignore the build folder (if applicable)
+build/
+
+# Ignore temporary files from your IDE or OS
+.vscode/
+.idea/
+
+# Ignore Mac-specific system files
+.DS_Store
+
+# Ignore Windows-specific system files
+Thumbs.db
