@@ -1,0 +1,21 @@
+projekt 2 - haas USER STORY
+(hardening as a service) - fb pro gmbh - b2b - it sicherheit - system hartung
+
+- webbasierten portal
+
+aufgaben 
+- scrum orientierten sprints projektplan
+- recherchen ahnliche losung fur die idee, wenn nicht, konnen wir die recherche mit zugang zu geschlossen organisation wie cis unterstutzen
+konzeption eines cloud service entwickeln mit komponenten wie user-management, payment, auditing, sichere configuration)
+implement mvp/prototype eines saas im umfeld "hardening"
+entwicklung von testkonzept and tests durchfuhren
+
+
+projekt 3 - verkaufsforderung (vkf)
+multipurpose ocr-services (optical character recognition)
+
+- cloudbereitschaft
+- automatisierung der erkennung verarbeitung von text in gescannten docs
+
+
+

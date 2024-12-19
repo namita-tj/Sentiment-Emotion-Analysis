@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <title>CALCULATOR</title>
+  <style>
+    body {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    .calc {
+      display: grid;
+      background-color: black;
+      grid-template-columns: repeat (4, 1fr);
+    }
+    .text {
+      grid-column: span 4;
+      padding: 10px;
+      border: none;
+      background-color: lightblue;
+      height: 100%;
+    }
+    button {
+      border: none;
+      height: 50px;
+      width: 150px;
+    }
+    .sign {
+      background-color: bisque;
+    }
+  </style>
+</head>
+<body>
+  <div class="calc">
+    <input class="text" />
+    <button onclick="storeVar(this)" value="9">9</button>
+    <button onclick="storeVar(this)" value="8">8</button>
+    <button onclick="storeVar(this)" value="7">7</button>
+    <button class="sign">/</button>
+    <button onclick="storeVar(this)" value="6">6</button>
+    <button onclick="storeVar(this)" value="5">5</button>
+    <button onclick="storeVar(this)" value="4">4</button>
+    <button class="sign">*</button>
+    <button onclick="storeVar(this)" value="3">3</button>
+    <button onclick="storeVar(this)" value="2">2</button>
+    <button onclick="storeVar(this)" value="1">1</button>
+    <button class="sign">-</button>
+    <button onclick="storeVar(this)" value="0">0</button>
+    <button type="reset">C</button>
+    <button type="submit">=</button>
+    <button class="sign">+</button>
+  </div>
+  <script>
+    function storeVar(val) {
+      var value = val;
+      console.log(value);
+    }
+    function displayText() {
+      var text =
+    }
+  </script>
+</body>
